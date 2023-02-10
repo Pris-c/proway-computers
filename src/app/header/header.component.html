@@ -7,15 +7,15 @@
         <nav class="main-header__menu">
             <ul>
 
-                <li><a>Produtos</a></li>         <!-- (li>a)*5 -->
-                <li>
+                <li (click)="navegarProdutos()"><a>Produtos</a></li>         <!-- (li>a)*5 -->
+                <li (click)="navegarCarrinho()">
                     <a>
                         <i class="fa-solid fa-cart-shopping"></i>
                         Carrinho
                         <span class="badge-carrinho"> {{ carrinhoService.obtemCarrinho().length }} </span>
                     </a>
                 </li>        
-                <li><a>Contato</a></li>
+                <li (click)="navegarContato()"><a>Contato</a></li>
                 <li><a><i class="fa-brands fa-facebook-f"></i></a></li>
                 <li><a><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a><i class="fa-brands fa-twitter"></i></a></li>

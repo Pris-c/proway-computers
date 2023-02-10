@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CarrinhoService } from '../carrinho.service';
 
 @Component({
@@ -9,6 +10,20 @@ import { CarrinhoService } from '../carrinho.service';
 export class HeaderComponent {
 
   constructor(
-    public carrinhoService: CarrinhoService
+    public carrinhoService: CarrinhoService,
+    private route: ActivatedRoute,
+    private router: Router
   ){}
+
+  navegarCarrinho(){
+    this.router.navigate(["carrinho"]);
+  }
+
+  navegarProdutos(){
+    this.router.navigate(["produtos"]);
+  }
+
+  navegarContato(){
+    this.router.navigate(["contato"]);
+  }
 }
