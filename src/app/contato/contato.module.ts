@@ -6,6 +6,8 @@ import { ContatoComponent } from './contato.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
+
+
 @NgModule({
   declarations: [
     ContatoComponent
@@ -14,7 +16,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     CommonModule,
     ContatoRoutingModule,
     ReactiveFormsModule,
-
   ]
 })
+
+
+
 export class ContatoModule { }

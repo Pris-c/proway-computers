@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { FormBuilder, Validators } from '@angular/forms';
 import { NotificacaoService } from '../notificacao.service';
 
+
 @Component({
   selector: 'app-contato',
   templateUrl: './contato.component.html',
@@ -12,27 +13,27 @@ import { NotificacaoService } from '../notificacao.service';
 export class ContatoComponent {
   formContato = this.fb.group({
     
-    nome: [" ", [
+    nome: ["", [
       Validators.minLength(4),
       Validators.required
     ]],
 
-    assunto: [" ",[
+    assunto: ["",[
       Validators.minLength(10),
       Validators.required
     ]],
 
-    telefone: [" ",[
+    telefone: ["",[
       Validators.minLength(11),
       Validators.required
     ]],
 
-    email: [" ",[
+    email: ["",[
       Validators.email,
       Validators.required
     ]],
 
-    mensagem: [" ",[
+    mensagem: ["",[
       Validators.minLength(20),
       Validators.required
     ]]
@@ -43,6 +44,10 @@ export class ContatoComponent {
     private fb: FormBuilder,
     private notificacaoService: NotificacaoService
   ) {}
+
+  ngOnInit(): void{
+  
+  }
   
   enviarMensagem(){
     this.notificacaoService.notificar("Mensagem enviada com sucesso!");
