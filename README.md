@@ -1,8 +1,7 @@
 # ProwayComputers
 
 This project was built during the Angular course by Capgemini Brazil's Program Start.
-
-<br> It consist in the frontend side of an e-commerce website for computing equipment.
+<br>It consist in the frontend side of an e-commerce website for computing equipment.
 
 <br> On that, it was used:
 * VSCode
@@ -11,3 +10,6 @@ This project was built during the Angular course by Capgemini Brazil's Program S
 * HTML
 * CSS
 * Typescript
+
+Based on this course, I also built this website project: https://github.com/Pris-c/students
+<br>You can also access it [here](https://pris-c.github.io/students/).
