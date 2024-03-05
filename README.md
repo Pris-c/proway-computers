@@ -11,5 +11,5 @@ This project was built during the Angular course by Capgemini Brazil's Program S
 * CSS
 * Typescript
 
-Based on this course, I also built this website project: https://pris-c.github.io/CRUD-of-Students-Grades-in-Angular/
-<br>You can also access it [here](https://github.com/Pris-c/CRUD-of-students-grades-in-angular).
+Based on this course, I also built this another project: https://github.com/Pris-c/CRUD-of-students-grades-in-angular
+
