@@ -5,13 +5,13 @@ _______
 ProWay Computers consists in the front-end side of an e-commerce website for computing equipment. This project was built during the Angular course by Capgemini Brazil's Start Program.
 
 <div align = "center" justify-content = 'space-around' >
-  <img width="500" alt="ProWay Computers ecommerce platform - Products" src="./READMEimages/produtos.png">
+  <img width="800" alt="ProWay Computers ecommerce platform - Products" src="./ReadMeImages/produtos.png">
   <br><br>
-  <img width="500" alt="ProWay Computers ecommerce platform - Item" src="./READMEimages/Item.png">
+  <img width="800" alt="ProWay Computers ecommerce platform - Item" src="./ReadMeImages/Item.png">
   <br><br>
-  <img width="500" alt="ProWay Computers ecommerce platform - ShopCart" src="./READMEimages/Carrinho.png">
+  <img width="800" alt="ProWay Computers ecommerce platform - ShopCart" src="./ReadMeImages/Carrinho.png">
   <br><br>
-  <img width="500" alt="ProWay Computers ecommerce platform - Contact" src="./READMEimages/Contact.png">
+  <img width="800" alt="ProWay Computers ecommerce platform - Contact" src="./ReadMeImages/Contact.png">
 </div>
 <br>
 
